@@ -3,9 +3,8 @@ from tqdm import tqdm
 
 
 if __name__ == "__main__":
-    # KEY = "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"
-    # KEY = "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"
-    KEY = "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"
+
+    KEY = ""
     # instruction = "You are a knowledge graph extractor, where a knowledge graph is defined as a set of entities and edges. " +\
     #                     "A valid entity can could be a person, an organization, an location, or a time, while a relationship could only be a verb. " +\
     #                     "Note that, each relation should be summarized as short as possible. " +\
