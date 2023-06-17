@@ -5,13 +5,6 @@ from tqdm import tqdm
 if __name__ == "__main__":
 
     KEY = ""
-    # instruction = "You are a knowledge graph extractor, where a knowledge graph is defined as a set of entities and edges. " +\
-    #                     "A valid entity can could be a person, an organization, an location, or a time, while a relationship could only be a verb. " +\
-    #                     "Note that, each relation should be summarized as short as possible. " +\
-    #                     "You need to present a knowledge in the triplet format, such as: ('head entity', 'relation', 'tail entity'). " +\
-    #                     "If you cannot find any knowledge, just return: None."
-
-    #instruction = "Do you know who is Xuansheng Wu? "
 
     R8_classes = "[money-fx, trade, acq, grain, interest, crude, ship]"
 #     _20NG_classes = "['sci.electronics', 'comp.windows.x', 'comp.os.ms-windows.misc', 'talk.politics.mideast', 'talk.politics.guns', 'rec.motorcycles', 'comp.graphics', 'rec.sport.baseball', 'comp.sys.mac.hardware', 'talk.politics.misc', 'misc.forsale', 'sci.space', 'talk.religion.misc', 'sci.med', 'rec.autos', 'sci.crypt', \
