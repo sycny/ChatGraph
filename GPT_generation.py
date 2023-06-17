@@ -60,7 +60,7 @@ def extract(input):
     # instruction = "You are a text classifier and your task is to classifiy a given text into the following categories: 'acq', 'crude', 'earn', 'grain', 'interest', 'money-fx', 'ship',\
     # 'trade'. You should directly output the predicted label."
 
-    KEY = "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"
+    KEY = ""
     model = getattr(Chatting, args.model)(KEY, instruction)
     KG_list = []
     for batch in tqdm(model.batch_call(input, batch_size=args.batch_size)):
