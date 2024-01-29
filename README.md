@@ -26,3 +26,6 @@ champion products approves stock split champion products inc said board director
 ###Output###:
 loss
 ```
+## GPT API
+Please refer to this link: [GPT_API](https://github.com/JacksonWuxs/chatgpt_callers/blob/main/openaigpt.py)
+
